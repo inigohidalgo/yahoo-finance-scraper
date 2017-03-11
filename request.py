@@ -5,17 +5,15 @@ from collections import OrderedDict
 logging.basicConfig(filename='example.log', filemode='w', level=logging.DEBUG)
 
 
-
-def get_stock_info(stockList,companydata):
+def get_stock_info(stockList, companydata):
     data = open(companydata)
     data = open.read()
     data = data.split('\n')
     for line in data:
         line = line.split(',')
         line = [line[0], line[5], line[6]]
-    # for stock in stockList:
 
-    
+
 def downloadData(start, end, tickerList):
     if not end:
         end = datetime.date.today().strftime("%d/%m/%Y")
@@ -123,15 +121,14 @@ def csv_to_lst(path):
     return list
 
 
-
 # startDate = input('Enter starting date (DD/MM/YYYY): ')
-# endDate = input('Enter final date (DD/MM/YYYY) [Default today]: ')
-# stock_list_path = input('Enter the path to list of stocks: ')
-# vars = input('Enter desired variables [Default: Adj Close]: ').split(",")
-# stockList = csv_to_lst(stock_list_path)
+endDate = input('Enter final date (DD/MM/YYYY) [Default today]: ')
+stock_list_path = input('Enter the path to list of stocks: ')
+vars = input('Enter desired variables [Default: Adj Close]: ').split(",")
+stockList = csv_to_lst(stock_list_path)
 startDate = '02/03/2017'
-endDate = '03/03/2017'
-stockList = ['SPY','BBVA']
-vars = ['']
+# endDate = '03/03/2017'
+# stockList = ['SPY','BBVA']
+# vars = ['']
 dataDict = downloadData(startDate, endDate, stockList)
 print_to_csv(dataDict, vars)
