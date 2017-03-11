@@ -87,18 +87,18 @@ def downloadData(start, end, tickerList):
                 dataList[rowIndex].append(market)
             else:
                 dataList[rowIndex].extend(['Delta', 'market']) #hacky way of adding Delta and market name into the list of variables
-        print(dataList[0])
+        # print(dataList[0])
         headings = dataList[0]
-        print(headings)
+        # print(headings)
       #  print(dataList[1:3])
       #  del dataList[0]
         for n in range(len(headings)):
             data[name][headings[n]] = []
             for row in dataList[1:]:
-                print(headings)
+                # print(headings)
                 data[name][headings[n]].append((row[n]))
                 #data[name][headings[n]].append('hello')
-    print(data)
+    # print(data)
     return data
 
 
