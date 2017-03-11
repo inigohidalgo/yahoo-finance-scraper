@@ -5,8 +5,7 @@ from collections import OrderedDict
 logging.basicConfig(filename='example.log', filemode='w', level=logging.DEBUG)
 
 
-
-def get_stock_info(stockList,companydata):
+def get_stock_info(stockList, companydata):
     data = open(companydata)
     data = open.read()
     data = data.split('\n')
@@ -15,11 +14,11 @@ def get_stock_info(stockList,companydata):
         line = [line[0], line[5], line[6]]
     # for stock in stockList:
 
-    
+
 def downloadData(start, end, tickerList):
-    if not end: # if no end date provided, set today as the end date
+    if not end:  # if no end date provided, set today as the end date
         end = datetime.date.today().strftime("%d/%m/%Y")
-    splitStart = start.split('/') # split given dates into day, month, year
+    splitStart = start.split('/')  # split given dates into day, month, year
     splitEnd = end.split('/')
     startDict = {}
     endDict = {}
@@ -38,14 +37,14 @@ def downloadData(start, end, tickerList):
     data = {}
     marketList = []
     for ticker in tickerList:
-        name = ticker.split(".")[0] #split into ticker and market
-        marketName = ticker.split(".")[1] #split into ticker and market
+        name = ticker.split(".")[0]  # split into ticker and market
+        marketName = ticker.split(".")[1]  # split into ticker and market
         if marketName not in marketList:
-                marketList.append(marketName)
+            marketList.append(marketName)
         market = str(marketList.index(marketName))
-        #print(ticker)
-        data[name] = {} # setting up the dictionary entry for the ticker
-        url = ( #downloading the data as a string
+        # print(ticker)
+        data[name] = {}  # setting up the dictionary entry for the ticker
+        url = (  # downloading the data as a string
             "https://ichart.finance.yahoo.com/table.csv"
             "?e=%s"
             "&d=%s"
@@ -59,21 +58,23 @@ def downloadData(start, end, tickerList):
             % (endDict['day'], endDict['month'], endDict['year'],
                startDict['day'], startDict['month'], startDict['year'], ticker))
         csv = requests.get(url).text
-        if 'Yahoo! - 404 Not Found' in csv: # error prevention
+        if 'Yahoo! - 404 Not Found' in csv:  # error prevention
             print('restarting ' + ticker)
             continue
         logging.info(url)
         logging.info(csv)
-        dataList = csv.split('\n') # splitting observations into different items in a list
-        del dataList[-1] # deleting empty line at the end of the dataset
+        # splitting observations into different items in a list
+        dataList = csv.split('\n')
+        del dataList[-1]  # deleting empty line at the end of the dataset
         for rowIndex in range(len(dataList)):
-            dataList[rowIndex] = dataList[rowIndex].split(',') # splitting each observation by commas (list of lists)
+            # splitting each observation by commas (list of lists)
+            dataList[rowIndex] = dataList[rowIndex].split(',')
             original_date = dataList[rowIndex][0]
             if '-' in original_date:
                 stata_date = datetime.datetime(1960, 1, 1)
                 # print(original_date)
                 date_split = original_date.split("-")
-                #print(len(date_split))    redundant error prevention
+                # print(len(date_split))    redundant error prevention
 #                if not len(date_split) == 3:
 #                    print('restarting'+ticker)
 #                    continue
@@ -86,18 +87,20 @@ def downloadData(start, end, tickerList):
                 dataList[rowIndex].append(time_delta)
                 dataList[rowIndex].append(market)
             else:
-                dataList[rowIndex].extend(['Delta', 'market']) #hacky way of adding Delta and market name into the list of variables
+                # hacky way of adding Delta and market name into the list of
+                # variables
+                dataList[rowIndex].extend(['Delta', 'market'])
         # print(dataList[0])
         headings = dataList[0]
         # print(headings)
-      #  print(dataList[1:3])
-      #  del dataList[0]
+        # print(dataList[1:3])
+        # del dataList[0]
         for n in range(len(headings)):
             data[name][headings[n]] = []
             for row in dataList[1:]:
                 # print(headings)
                 data[name][headings[n]].append((row[n]))
-                #data[name][headings[n]].append('hello')
+                # data[name][headings[n]].append('hello')
     # print(data)
     return data
 
@@ -132,7 +135,7 @@ def print_to_csv(dataset, variables):
         writeList.append(writing)
 #    writeList.insert(-1, writeList[0])
     headings = writeList[0]
-    del writeList [0]
+    del writeList[0]
     writeString = headings + "\n" + "\n".join(list(reversed(writeList)))
     sheet = open('data.csv', 'w')
     sheet.write(writeString)
@@ -146,7 +149,6 @@ def csv_to_lst(path):
     tickers = tickers.replace(" ", "")
     list = tickers.split(',')
     return list
-
 
 
 # startDate = input('Enter starting date (DD/MM/YYYY): ')
