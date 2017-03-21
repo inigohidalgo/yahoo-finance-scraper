@@ -1,0 +1,704 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"start",
+				"startDict"
+			],
+			[
+				"get",
+				"get_historical"
+			],
+			[
+				"yah",
+				"yahoo_finance\tmodule"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "request.py",
+			"settings":
+			{
+				"buffer_size": 6187,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"stata",
+				"Set Syntax: Stata"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Build With: LaTeX - Script Builder"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"git quick",
+				"Git: Quick Add"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit ",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git:annota",
+				"Git: Toggle Annotations"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Package Control: Install P",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git status",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/part2.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/part1.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/chap02.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter01/chap01.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/bibliography.bib",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/dissertation.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/outline.tex",
+		"/C/Users/Inigo/AppData/Local/Temp/10.2307_40604316.txt",
+		"/C/Users/Inigo/AppData/Local/Temp/Temp1_lrinstagram_r1519.zip/readme.txt",
+		"/C/Users/Inigo/AppData/Roaming/Adobe/Lightroom/Develop Presets/User Presets/Import.lrtemplate",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/figures/endo_cssd_upperret05 lowerret05.pdf",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/dissertation.pdf",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/logos/logo.png",
+		"/D/MyDocuments/University/Dissertation/Data/request.py",
+		"/D/MyDocuments/University/Dissertation/Data/ETFPricing - Copy.csv",
+		"/D/MyDocuments/University/Dissertation/Data/scraper.py",
+		"/D/MyDocuments/Personal/Programming/Python/practice/Tic Tac Toe.py",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/frontmatter/abstract.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/frontmatter/title.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/Dissertation.sublime-project",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/mytex.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/mytex-blx.bib",
+		"/D/Desktop/test.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/figures/exogeneity.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/thesisbiblio.bib",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/D/MyDocuments/University/Behavioural_Economics/Essays/1/main.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/figures/endo_csad_absreturnSPY returnSPYsq.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/figures.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/chapter02/figure1.tex",
+		"/D/MyDocuments/University/Dissertation/Data/timeseries.do",
+		"/C/Users/Inigo/AppData/Local/Temp/Temp1_B - Ziggy's Mod 3.21 Hardcore-63-3-21.zip/Ziggy's Mod v3.21 Hardcore/ReadMe.txt",
+		"/C/Users/Inigo/AppData/Local/Temp/Temp1_B - Ziggy's Mod 3.21 Hardcore-63-3-21.zip/Ziggy's Mod v3.21 Hardcore/READ THIS.txt",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/chapters/appendices/app0A.tex",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/StataEditor/Readme.mdown",
+		"/D/MyDocuments/University/Dissertation/Data/section1.do",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/User/StataEditor.sublime-settings",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/StataEditor/StataEditor.sublime-settings",
+		"/D/MyDocuments/Personal/CV/Vasiliki Sogia.tex",
+		"/D/MyDocuments/University/Dissertation/Data/output.smcl",
+		"/D/MyDocuments/University/Behavioural_Economics/Essays/1/mybib.bib",
+		"/D/Desktop/section1.do",
+		"/D/MyDocuments/Personal/CV/Vasiliki Sogia - Copy.tex",
+		"/D/Pictures/Photography/Real/P1110666.XMP",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/builders/simpleBuilder.py",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/builders/traditionalBuilder.py",
+		"/D/MyDocuments/Personal/CV/main.tex",
+		"/D/MyDocuments/Personal/CV/main - Copy.tex",
+		"/D/MyDocuments/University/Behavioural Economics/Essays/1/mybib.bib",
+		"/D/MyDocuments/University/Behavioural Economics/Essays/1/main.tex",
+		"/D/Games/steamapps/common/Ryse Son of Rome/system.cfg",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/mytex.sum",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/chapters/outline.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/TeX/.gitignore",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/Origami/Origami.sublime-settings",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/mytex.tex",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/Cmd/cmd.py",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/Cmd/Context.sublime-menu",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/thesisbiblio.bib",
+		"/D/MyDocuments/University/Dissertation/Writing/Old/memoirthesis.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/frontmatter/title.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/frontmatter/abstract.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/chapters/chapter01/chap01.tex",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/Inigo/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/frontmatter/mydedication.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/frontmatter/mydeclaration.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/frontmatter/declaration.tex",
+		"/C/Users/Inigo/AppData/Roaming/beets/config.yaml",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/mytexg.tex",
+		"/D/MyDocuments/University/Dissertation/Writing/Files/mytex-blx.bib",
+		"/D/Documents/University/Dissertation/Writing/Files/thesisbiblio.bib",
+		"/D/Documents/University/Dissertation/Writing/Files/mytex-blx.bib",
+		"/D/Documents/University/Dissertation/Writing/Files/chapters/chapter01/mychap01.tex",
+		"/D/Documents/University/Dissertation/Writing/Files/mytexg.tex",
+		"/D/Desktop/mytex.tex",
+		"/D/Desktop/thesisbiblio.bib",
+		"/D/Documents/University/Dissertation/Writing/Files/frontmatter/title.tex",
+		"/D/Documents/University/Dissertation/Writing/Files/frontmatter/abstract.tex",
+		"/D/Documents/University/Dissertation/Writing/Files/frontmatter/mytitle.tex",
+		"/D/Documents/University/Dissertation/Writing/Files/frontmatter/myabstract.tex",
+		"/D/Documents/University/Dissertation/Writing/Files/mytex.tex",
+		"/D/Documents/University/Dissertation/Writing/Files/memoirthesis.tex",
+		"/D/Documents/Practice/why.tex",
+		"/D/Documents/Practice/why.bib",
+		"/D/Documents/bs.tex",
+		"/D/Documents/moderncvstylebanking.sty",
+		"/D/Documents/University/Dissertation/Writing/Files/chapters/appendices/app0A.tex",
+		"/D/Documents/delete.tex",
+		"/C/Program Files/MiKTeX 2.9/tex/latex/moderncv/moderncvbodyi.sty",
+		"/D/Games/Cloud Imperium Games/Patcher/PatcherState",
+		"/D/Documents/kjhealy-kjh-vita-dfd536a/kjhealy-kjh-vita-dfd536a/kjh-vita.tex",
+		"/D/Downloads/Ultimate Font Pack (over 3000 fonts) [eXtSharing]/ReadMe [eXtSharing].nfo",
+		"/D/Programming/Python/Euler/5.py",
+		"/D/Documents/BioWare/Dragon Age/Settings/DragonAge.ini",
+		"/D/Games/steamapps/common/Dragon Age Ultimate Edition/DAOriginsLauncher.exe",
+		"/D/Games/steamapps/common/Dragon Age Ultimate Edition/data/DAOriginsLauncher.xml"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 89.0,
+		"where_history":
+		[
+			"D:\\MyDocuments\\University\\Dissertation\\Writing\\TeX"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font",
+			"``",
+			"''",
+			"``",
+			"print",
+			"hyper",
+			"package",
+			"bib",
+			".",
+			"}",
+			"$$\n",
+			".\n",
+			"title",
+			"myriad",
+			"}$",
+			"old",
+			"oldsty",
+			" \n",
+			"1",
+			"log",
+			"latexmk",
+			"builder_settings",
+			"}\n",
+			"hott",
+			"dasgupta",
+			"fmtcount",
+			"bikhchandani2000herd",
+			"za",
+			"chiang",
+			"large",
+			"width",
+			"banerjee",
+			"bib",
+			"append",
+			"|",
+			"spver",
+			"otf",
+			"minionpro",
+			"hintstyle",
+			"doubleitem",
+			"scit",
+			"minion",
+			"rfoot",
+			"vc",
+			"myriad"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"`",
+			"'",
+			"`",
+			"2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "request.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										689,
+										690
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										687,
+										688
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.latextools":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "yahoo-finance-scraper.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"part1",
+				"chapters\\chapter02\\part1.tex"
+			],
+			[
+				"01",
+				"chapters\\chapter01\\chap01.tex"
+			],
+			[
+				"2",
+				"chapters\\chapter02\\part2.tex"
+			],
+			[
+				"chap01",
+				"chapters\\chapter01\\chap01.tex"
+			],
+			[
+				"outl",
+				"chapters\\outline.tex"
+			],
+			[
+				"bib",
+				"bibliography.bib"
+			],
+			[
+				"02",
+				"chapters\\chapter02\\chap02.tex"
+			],
+			[
+				"dissert",
+				"dissertation.tex"
+			],
+			[
+				"my",
+				"mytex.tex"
+			],
+			[
+				"chap02",
+				"chapters\\chapter02\\chap02.tex"
+			],
+			[
+				"abs",
+				"frontmatter\\abstract.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Desktop\\Dissertation.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 374.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"tab:ADF"
+			]
+		],
+		"width": 360.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 5
+	}
+}
