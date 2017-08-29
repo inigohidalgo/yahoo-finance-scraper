@@ -5,13 +5,13 @@ from collections import OrderedDict
 logging.basicConfig(filename='example.log', filemode='w', level=logging.DEBUG)
 
 
-def get_stock_info(stockList, companydata):
-    data = open(companydata)
-    data = open.read()
-    data = data.split('\n')
-    for line in data:
-        line = line.split(',')
-        line = [line[0], line[5], line[6]]
+#def get_stock_info(stockList, companydata):
+#    data = open(companydata)
+#    data = open.read()
+#    data = data.split('\n')
+#    for line in data:
+#        line = line.split(',')
+#        line = [line[0], line[5], line[6]]
 
 
 def downloadData(start, end, tickerList):
@@ -21,12 +21,6 @@ def downloadData(start, end, tickerList):
     splitEnd = end.split('/')
     startDict = {}
     endDict = {}
-    # e day close,
-    # d = month close,
-    # f = year close,
-    # b = day open,
-    # a = month open,
-    # c = year open
     startDict['day'] = splitStart[0]
     startDict['month'] = str(int(splitStart[1]) - 1)
     startDict['year'] = splitStart[2]
@@ -38,15 +32,15 @@ def downloadData(start, end, tickerList):
         data[ticker] = {}
         url = (
             "https://ichart.finance.yahoo.com/table.csv"
-            "?e=%s"
-            "&d=%s"
-            "&f=%s"
+            "?e=%s"     # e = day close,
+            "&d=%s"     # d = month close,
+            "&f=%s"     # f = year close,
             "&g=d"
-            "&b=%s"
-            "&a=%s"
-            "&c=%s"
+            "&b=%s"     # b = day open,
+            "&a=%s"     # a = month open,
+            "&c=%s"     # c = year open
             "&ignore=.csv"
-            "&s=%s"
+            "&s=%s"     # s = ticker
             % (endDict['day'], endDict['month'], endDict['year'],
                startDict['day'], startDict['month'], startDict['year'], ticker))
         csv = requests.get(url)
