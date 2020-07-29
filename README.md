@@ -1,2 +1,3 @@
 # yahoo-finance-scraper
-Extremely buggy script that scrapes Yahoo Finance for historical data given a range of dates and a list of tickers.
+Outdated script I used during my dissertation to automate the gathering of large amounts of historical stock data.
+It is outdated because Yahoo Finance changed their API calls.
